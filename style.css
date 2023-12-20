@@ -150,7 +150,7 @@ ul li a:hover {
   place-items: center;
 }
 .image img {
-  width: min(25rem, 90%);
+  width: min(20rem, 80%);
   border-radius: 100%;
 }
 @media (width < 750px) {
