@@ -156,6 +156,12 @@ ul li a:hover {
   width: 150px;
   height: 150px;
   border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stack-img p {
+  margin-top: 10px;
 }
 .stack-img img {
   width: 100%;
