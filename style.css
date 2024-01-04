@@ -135,14 +135,25 @@ ul li a:hover {
   background-color: var(--primary-color);
   color: #ffffff;
 }
+.hire__me a {
+  text-decoration: none;
+  color: #ffffff;
+}
 .hire__me:hover {
   background-color: var(--primary-color-dark);
 }
 .portfolio {
   color: var(--primary-color);
 }
+.portfolio a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
 .portfolio:hover {
   background-color: var(--primary-color-dark);
+  color: #ffffff;
+}
+.portfolio a:hover {
   color: #ffffff;
 }
 .image {
