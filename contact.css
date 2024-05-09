@@ -4,7 +4,7 @@
   --primary-color: #a855f7;
   --primary-color-dark: #9333ea;
   --secondary-color: #ca8a04;
-  --text-dark: #1f2937;
+  --text-dark: #d5d6d8;
   --text-light: #6b7280;
   --extra-light: #faf5ff;
   --max-width: 1200px;
@@ -28,7 +28,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #ffffff;
+  background-color: color-mix(in srgb, black, white 5%);
   z-index: 992;
 }
 .nav__content {
@@ -40,8 +40,9 @@ nav {
   justify-content: space-between;
 }
 nav .logo a {
-  font-size: 1.5rem;
   font-weight: 600;
+  font-family: "Great Vibes";
+  font-size: 3rem;
   color: var(--primary-color);
   transition: 0.3s;
 }
@@ -81,7 +82,7 @@ ul li a:hover {
 }
 .section {
   margin-top: 85px;
-  background-color: var(--extra-light);
+  background-color: black;
 }
 .section-container {
   min-height: 100vh;
@@ -91,6 +92,7 @@ ul li a:hover {
 }
 .section h1 {
   color: var(--primary-color-dark);
+  margin-top: 15px;
 }
 .social {
   /* padding: 30px; */
