@@ -272,7 +272,7 @@ ul li a:hover {
 }
 .stack {
   max-height: 250px;
-  background-color: blue;
+  /* background-color: blue; */
   display: flex;
   flex-direction: column;
   align-items: center;
