@@ -93,6 +93,7 @@ ul li a:hover {
   max-width: var(--max-width);
   margin: auto;
   padding: 1rem;
+  padding-top: 70px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 4rem;
@@ -183,6 +184,9 @@ ul li a:hover {
   max-width: var(--max-width);
   margin: auto;
   padding: 1rem;
+  /* margin-bottom: 100px; */
+  padding-bottom: 180px;
+  padding-top: 140px;
   /* margin-top: 100px; */
 }
 #projects h1 {
@@ -258,10 +262,11 @@ ul li a:hover {
   max-width: var(--max-width);
   margin: auto;
   padding: 1rem;
+  padding-top: 140px;
   /* background: linear-gradient(to bottom, black 60%, rgb(32, 31, 31)); */
 }
 #stack h1 {
-  color: white;
+  color: var(--primary-color-dark);
   text-align: center;
 }
 .grid {
@@ -303,6 +308,7 @@ ul li a:hover {
   max-width: var(--max-width);
   margin: auto;
   padding: 1rem;
+  padding-top: 140px;
 }
 #contact h1 {
   color: var(--primary-color-dark);
