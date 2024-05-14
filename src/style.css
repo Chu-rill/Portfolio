@@ -167,7 +167,7 @@ nav ul li a:hover {
 }
 #about .image img {
   width: min(20rem, 80%);
-  border-radius: 100%;
+  border-radius: 1.5rem;
 }
 
 #projects .section-container {
