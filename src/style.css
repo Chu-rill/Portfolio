@@ -7,7 +7,7 @@
   --text-dark: #d5d6d8;
   --text-light: #6b7280;
   --extra-light: #faf5ff;
-  --max-width: 1200px;
+  /* --max-width: 1200px; */
   --tw-shadow-colored: 0 4px 6px -1px #4b5563, 0 2px 4px -2px #4b5563;
 }
 
@@ -172,7 +172,7 @@ nav ul li a:hover {
 
 #projects .section-container {
   min-height: 100vh;
-  max-width: var(--max-width);
+  /* max-width: var(--max-width); */
   margin: auto;
   padding: 1rem;
   /* margin-bottom: 100px; */
@@ -391,10 +391,12 @@ nav ul li a:hover {
   ul li a {
     font-size: 1.25rem;
   }
-  .section__container {
+  #about .section__container {
     padding: 10rem 1rem 5rem 1rem;
     text-align: center;
-    grid-template-columns: repeat(1, 1fr);
+    /* grid-template-columns: repeat(1, 1fr); */
+    display: flex;
+    flex-direction: column;
   }
   .image {
     grid-area: 1/1/2/2;
