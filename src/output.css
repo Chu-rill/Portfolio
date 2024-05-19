@@ -635,6 +635,10 @@ video {
   justify-content: space-between;
 }
 
+.justify-around {
+  justify-content: space-around;
+}
+
 .rounded-3xl {
   border-radius: 1.5rem;
 }
