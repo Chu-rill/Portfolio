@@ -22,21 +22,22 @@ a {
 
 body {
   font-family: "Poppins", sans-serif;
-  /* background: linear-gradient(to bottom, black 60%, rgb(32, 31, 31)); */
+  background: black;
 }
 nav {
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
-  background-color: color-mix(in srgb, black, white 5%);
-
+  background-color: black;
   z-index: 992;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 .nav__content {
   max-width: var(--max-width);
   margin: auto;
-  padding: 1.5rem 1rem;
+  padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -46,6 +47,7 @@ nav .logo a {
   font-size: 3rem;
   color: var(--primary-color);
   transition: 0.3s;
+  font-size: x-large;
 }
 nav .logo a:hover {
   color: var(--primary-color-dark);
@@ -185,6 +187,10 @@ nav ul li a:hover {
   text-align: center;
   margin-bottom: 20px;
   margin-top: 15px;
+  font-size: xx-large;
+}
+#projects p {
+  font-size: larger;
 }
 #projects .grid-template {
   display: grid;
@@ -199,18 +205,21 @@ nav ul li a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 1px solid #cccccc26;
   /* border-radius: 15px; */
   /* box-shadow: 0 4px 6px var(--tw-shadow-colored); */
 }
 #projects .grid h1 {
   /* color: black; */
-  text-decoration: underline;
+  text-decoration: none;
   margin-bottom: 10px;
   margin-top: 10px;
+  font-size: medium;
 }
 #projects .grid p {
   text-align: center;
   color: white;
+  font-size: small;
 }
 #projects .sub-img {
   padding: 10px;
@@ -224,7 +233,7 @@ nav ul li a:hover {
   height: 100%;
   border-radius: 15px;
 }
-#projects .sub-img img:hover {
+#projects .grid:hover {
   transform: scale(1.1);
   cursor: pointer;
   transition: transform 0.3s ease;
@@ -236,8 +245,8 @@ nav ul li a:hover {
   min-width: 40%;
   padding: 10px;
   outline: none;
-  border: 2px solid var(--primary-color);
-  border-radius: 15px;
+  /* border: 2px solid var(--primary-color); */
+  border-radius: 10px;
   cursor: pointer;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -266,6 +275,11 @@ nav ul li a:hover {
 #stack h1 {
   color: var(--primary-color-dark);
   text-align: center;
+  font-size: xx-large;
+}
+#stack p {
+  font-size: larger;
+  margin-bottom: 1rem;
 }
 .grid {
   display: grid;
