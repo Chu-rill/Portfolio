@@ -234,7 +234,7 @@ nav ul li a:hover {
   border-radius: 15px;
 }
 #projects .grid:hover {
-  transform: scale(1.1);
+  transform: scale(1.03);
   cursor: pointer;
   transition: transform 0.3s ease;
 }
